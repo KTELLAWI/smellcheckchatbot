@@ -166,7 +166,7 @@ client.on('message', async (msg) => {
 
         try {
             // Make POST request to the endpoint
-            await axios.post('http://18.199.221.149:4000/execute', {}, {
+            await axios.post('http://62.72.57.75:4000/execute', {}, {
                 headers: {
                     'Content-Type': 'application/json'
                 }
@@ -247,7 +247,7 @@ Please choose your language:
 
         try {
             // Make POST request to the endpoint
-            const response = await axios.post('http://18.199.221.149:4000/add-user', userPayload, {
+            const response = await axios.post('http://62.72.57.75:4000/add-user', userPayload, {
                 headers: {
                     'Content-Type': 'application/json'
                 }
@@ -421,7 +421,6 @@ ${summary}
 
 
                   `;
-            console.log(messageToSend, "hhhhhhhh", summary, "ass");
 
             //post request yo register 
             const logPayload = {
@@ -456,7 +455,7 @@ If you’d like to rate someone else, type 'start.'
 
             try {
                 // Make POST request to the endpoint
-                const response = await axios.post('http://18.199.221.149:4000/add-log', logPayload, {
+                const response = await axios.post('http://62.72.57.75:4000/add-log', logPayload, {
                     headers: {
                         'Content-Type': 'application/json'
                     }

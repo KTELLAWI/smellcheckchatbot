@@ -5,8 +5,8 @@ const app = express();
 app.use(express.json());
 
 // Directus API Base URL and Access Token
-const DIRECTUS_BASE_URL = 'http://18.199.221.149:8055';
-const DIRECTUS_BASE_URL1 = 'http://18.199.221.149:8055/items';
+const DIRECTUS_BASE_URL = 'http://62.72.57.75:8055';
+const DIRECTUS_BASE_URL1 = 'http://62.72.57.75:8055/items';
 
 const ACCESS_TOKEN = 'T-kYlNv-HfygZr9wUX2D49jkD5h9WbuB';
 
