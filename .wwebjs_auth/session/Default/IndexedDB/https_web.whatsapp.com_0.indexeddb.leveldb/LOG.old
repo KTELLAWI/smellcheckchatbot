@@ -1,42 +1,41 @@
-2024/11/26-10:48:27.765 edaa Recovering log #2427
-2024/11/26-10:48:27.869 edaa Level-0 table #2436: started
-2024/11/26-10:48:27.916 edaa Level-0 table #2436: 138039 bytes OK
-2024/11/26-10:48:27.923 edaa Delete type=3 #2424
-2024/11/26-10:48:27.923 edaa Delete type=0 #2427
-2024/11/26-10:48:29.792 edd6 Moved #2436 to level-1 138039 bytes OK: files[ 0 1 6 0 0 0 0 ]
-2024/11/26-10:48:30.113 edd8 Compacting 1@1 + 6@2 files
-2024/11/26-10:48:30.300 edd8 Level-0 table #2440: started
-2024/11/26-10:48:30.309 edd8 Level-0 table #2440: 13633 bytes OK
-2024/11/26-10:48:30.312 edd8 Delete type=0 #2437
-2024/11/26-10:48:30.667 edd8 Generated table #2438@1: 83981 keys, 2232079 bytes
-2024/11/26-10:48:31.254 edd8 Generated table #2441@1: 93007 keys, 2276933 bytes
-2024/11/26-10:48:31.374 edd8 Generated table #2442@1: 13031 keys, 2175607 bytes
-2024/11/26-10:48:31.740 edd8 Generated table #2443@1: 38883 keys, 2201653 bytes
-2024/11/26-10:48:31.955 edd8 Generated table #2444@1: 62999 keys, 1309327 bytes
-2024/11/26-10:48:31.955 edd8 Compacted 1@1 + 6@2 files => 10195599 bytes
-2024/11/26-10:48:31.959 edd8 compacted to: files[ 1 0 5 0 0 0 0 ]
-2024/11/26-10:48:31.960 edd8 Manual compaction at level-0 from ' \x1c\x01\x00\x00\x00' @ 72057594037927935 : 1 .. ' \x1d\x01\x00\x00\x00' @ 0 : 0; will stop at ' \x1c\x01\x00\x00\x05' @ 2281838 : 1
-2024/11/26-10:48:31.960 edd8 Compacting 1@0 + 0@1 files
-2024/11/26-10:48:31.963 edd8 Generated table #2445@0: 342 keys, 7113 bytes
-2024/11/26-10:48:31.963 edd8 Compacted 1@0 + 0@1 files => 7113 bytes
-2024/11/26-10:48:31.964 edd8 compacted to: files[ 0 1 5 0 0 0 0 ]
-2024/11/26-10:48:31.965 edd8 Delete type=2 #2440
-2024/11/26-10:48:31.965 edda Manual compaction at level-0 from ' \x1c\x01\x00\x00\x05' @ 2281838 : 1 .. ' \x1d\x01\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/11/26-10:48:32.778 ed9b Compacting 1@1 + 3@2 files
-2024/11/26-10:48:33.077 ed9b Generated table #2446@1: 83962 keys, 2232037 bytes
-2024/11/26-10:48:33.417 ed9b Generated table #2447@1: 93092 keys, 2276721 bytes
-2024/11/26-10:48:33.489 ed9b Generated table #2448@1: 13032 keys, 2174375 bytes
-2024/11/26-10:48:33.491 ed9b Generated table #2449@1: 5 keys, 3184 bytes
-2024/11/26-10:48:33.491 ed9b Compacted 1@1 + 3@2 files => 6686317 bytes
-2024/11/26-10:48:33.493 ed9b compacted to: files[ 0 0 6 0 0 0 0 ]
-2024/11/26-10:48:33.493 ed9b Delete type=2 #2445
-2024/11/26-10:48:33.493 ed9b Delete type=2 #2433
-2024/11/26-10:48:33.493 ed9b Delete type=2 #2430
-2024/11/26-10:48:33.493 ed9b Delete type=2 #2432
-2024/11/26-10:48:33.493 ed9b Delete type=2 #2434
-2024/11/26-10:48:33.493 ed9b Delete type=2 #2441
-2024/11/26-10:48:33.493 ed9b Delete type=2 #2438
-2024/11/26-10:48:33.493 ed9b Delete type=2 #2436
-2024/11/26-10:48:33.493 ed9b Delete type=2 #2442
-2024/11/26-10:48:33.493 ed9b Delete type=2 #2431
-2024/11/26-10:48:33.493 ed9b Delete type=2 #2423
+2024/11/27-12:06:51.660 33be Recovering log #2578
+2024/11/27-12:06:51.703 33be Level-0 table #2589: started
+2024/11/27-12:06:51.712 33be Level-0 table #2589: 164262 bytes OK
+2024/11/27-12:06:51.722 33be Delete type=3 #2574
+2024/11/27-12:06:51.722 33be Delete type=0 #2578
+2024/11/27-12:06:53.712 3387 Moved #2589 to level-1 164262 bytes OK: files[ 0 1 5 0 0 0 0 ]
+2024/11/27-12:06:53.953 338a Compacting 1@1 + 5@2 files
+2024/11/27-12:06:54.160 338a Level-0 table #2593: started
+2024/11/27-12:06:54.185 338a Level-0 table #2593: 14279 bytes OK
+2024/11/27-12:06:54.189 338a Delete type=0 #2590
+2024/11/27-12:06:54.406 338a Generated table #2591@1: 84783 keys, 2233472 bytes
+2024/11/27-12:06:54.793 338a Generated table #2594@1: 100438 keys, 2252178 bytes
+2024/11/27-12:06:55.072 338a Generated table #2595@1: 13748 keys, 2207273 bytes
+2024/11/27-12:06:55.341 338a Generated table #2596@1: 23321 keys, 2184900 bytes
+2024/11/27-12:06:55.639 338a Generated table #2597@1: 80573 keys, 1668179 bytes
+2024/11/27-12:06:55.640 338a Compacted 1@1 + 5@2 files => 10546002 bytes
+2024/11/27-12:06:55.642 338a compacted to: files[ 1 0 5 0 0 0 0 ]
+2024/11/27-12:06:55.643 33be Manual compaction at level-0 from ' '\x01\x00\x00\x00' @ 72057594037927935 : 1 .. ' (\x01\x00\x00\x00' @ 0 : 0; will stop at ' '\x01\x00\x00\x05' @ 2410854 : 1
+2024/11/27-12:06:55.644 33be Compacting 1@0 + 0@1 files
+2024/11/27-12:06:55.647 33be Generated table #2598@0: 342 keys, 7131 bytes
+2024/11/27-12:06:55.647 33be Compacted 1@0 + 0@1 files => 7131 bytes
+2024/11/27-12:06:55.648 33be compacted to: files[ 0 1 5 0 0 0 0 ]
+2024/11/27-12:06:55.648 33be Delete type=2 #2593
+2024/11/27-12:06:55.649 33be Manual compaction at level-0 from ' '\x01\x00\x00\x05' @ 2410854 : 1 .. ' (\x01\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/27-12:06:56.160 338a Compacting 1@1 + 3@2 files
+2024/11/27-12:06:56.477 338a Generated table #2599@1: 84786 keys, 2232867 bytes
+2024/11/27-12:06:56.850 338a Generated table #2600@1: 100435 keys, 2252011 bytes
+2024/11/27-12:06:56.972 338a Generated table #2601@1: 13816 keys, 2207744 bytes
+2024/11/27-12:06:56.975 338a Generated table #2602@1: 5 keys, 2388 bytes
+2024/11/27-12:06:56.975 338a Compacted 1@1 + 3@2 files => 6695010 bytes
+2024/11/27-12:06:56.977 338a compacted to: files[ 0 0 6 0 0 0 0 ]
+2024/11/27-12:06:56.977 338a Delete type=2 #2585
+2024/11/27-12:06:56.978 338a Delete type=2 #2583
+2024/11/27-12:06:56.978 338a Delete type=2 #2594
+2024/11/27-12:06:56.978 338a Delete type=2 #2582
+2024/11/27-12:06:56.978 338a Delete type=2 #2595
+2024/11/27-12:06:56.978 338a Delete type=2 #2586
+2024/11/27-12:06:56.979 338a Delete type=2 #2598
+2024/11/27-12:06:56.979 338a Delete type=2 #2589
+2024/11/27-12:06:56.979 338a Delete type=2 #2591
+2024/11/27-12:06:56.979 338a Delete type=2 #2587
