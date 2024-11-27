@@ -1,0 +1,32 @@
+2024/11/26-10:49:10.719 eeff Recovering log #2439
+2024/11/26-10:49:10.747 eeff Level-0 table #2451: started
+2024/11/26-10:49:10.754 eeff Level-0 table #2451: 140657 bytes OK
+2024/11/26-10:49:10.763 eeff Delete type=0 #2439
+2024/11/26-10:49:10.763 eeff Delete type=3 #2435
+2024/11/26-10:49:12.449 ef01 Moved #2451 to level-1 140657 bytes OK: files[ 0 1 6 0 0 0 0 ]
+2024/11/26-10:49:12.981 eed1 Level-0 table #2454: started
+2024/11/26-10:49:12.987 eed1 Level-0 table #2454: 14225 bytes OK
+2024/11/26-10:49:12.991 eed1 Delete type=0 #2452
+2024/11/26-10:49:12.991 eed1 Manual compaction at level-0 from ' \x1d\x01\x00\x00\x00' @ 72057594037927935 : 1 .. ' \x1e\x01\x00\x00\x00' @ 0 : 0; will stop at ' \x1d\x01\x00\x00\x05' @ 2287713 : 1
+2024/11/26-10:49:12.991 eed1 Compacting 1@0 + 1@1 files
+2024/11/26-10:49:13.024 eed1 Generated table #2455@0: 3388 keys, 72901 bytes
+2024/11/26-10:49:13.024 eed1 Compacted 1@0 + 1@1 files => 72901 bytes
+2024/11/26-10:49:13.028 eed1 compacted to: files[ 0 1 6 0 0 0 0 ]
+2024/11/26-10:49:13.028 eed1 Delete type=2 #2454
+2024/11/26-10:49:13.029 eeff Manual compaction at level-0 from ' \x1d\x01\x00\x00\x05' @ 2287713 : 1 .. ' \x1e\x01\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/11/26-10:49:13.146 ef01 Compacting 1@1 + 6@2 files
+2024/11/26-10:49:13.453 ef01 Generated table #2456@1: 83983 keys, 2232826 bytes
+2024/11/26-10:49:13.635 ef01 Generated table #2457@1: 93669 keys, 2273488 bytes
+2024/11/26-10:49:13.783 ef01 Generated table #2458@1: 13037 keys, 2175502 bytes
+2024/11/26-10:49:13.930 ef01 Generated table #2459@1: 38055 keys, 2203137 bytes
+2024/11/26-10:49:14.125 ef01 Generated table #2460@1: 63862 keys, 1327062 bytes
+2024/11/26-10:49:14.125 ef01 Compacted 1@1 + 6@2 files => 10212015 bytes
+2024/11/26-10:49:14.129 ef01 compacted to: files[ 0 0 5 0 0 0 0 ]
+2024/11/26-10:49:14.129 ef01 Delete type=2 #2446
+2024/11/26-10:49:14.129 ef01 Delete type=2 #2447
+2024/11/26-10:49:14.129 ef01 Delete type=2 #2455
+2024/11/26-10:49:14.129 ef01 Delete type=2 #2448
+2024/11/26-10:49:14.129 ef01 Delete type=2 #2444
+2024/11/26-10:49:14.129 ef01 Delete type=2 #2449
+2024/11/26-10:49:14.129 ef01 Delete type=2 #2451
+2024/11/26-10:49:14.129 ef01 Delete type=2 #2443

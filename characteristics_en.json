@@ -1,0 +1,90 @@
+[
+  {
+    "id": "f0f50e89-59fd-44a6-bbb9-876d80ade030",
+    "characteristic_name": "Hair",
+    "choices": [
+      "Neat and Clean",
+      "Presentable",
+      "Acceptable",
+      "Untidy/Oily",
+      "Dirty"
+    ]
+  },
+  {
+    "id": "f0f50e89-59fd-44a6-bbb9-876d80ade031",
+    "characteristic_name": "Ears",
+    "choices": [
+      "Clean",
+      "-",
+      "Acceptable",
+      "Wax",
+      "-"
+    ]
+  },
+  {
+    "id": "f0f50e89-59fd-44a6-bbb9-876d80ade032",
+    "characteristic_name": "Mouth",
+    "choices": [
+      "Pleasant Breath",
+      "Clean Teeth",
+      "Acceptable",
+      "Unclean Teeth",
+      "Bad Breath"
+    ]
+  },
+  {
+    "id": "f0f50e89-59fd-44a6-bbb9-876d80ade033",
+    "characteristic_name": "Body Odor",
+    "choices": [
+      "Fresh",
+      "Good",
+      "No Odor",
+      "Unpleasant",
+      "Offensive"
+    ]
+  },
+  {
+    "id": "f0f50e89-59fd-44a6-bbb9-876d80ade034",
+    "characteristic_name": "Underarm",
+    "choices": [
+      "Odor-Free",
+      "Satisfactory",
+      "No Odor",
+      "Unpleasant",
+      "Offensive"
+    ]
+  },
+  {
+    "id": "f0f50e89-59fd-44a6-bbb9-876d80ade035",
+    "characteristic_name": "Nails",
+    "choices": [
+      "Well-Groomed",
+      "Clean",
+      "Acceptable",
+      "Overgrown",
+      "Dirty"
+    ]
+  },
+  {
+    "id": "f0f50e89-59fd-44a6-bbb9-876d80ade036",
+    "characteristic_name": "Feet",
+    "choices": [
+      "Well-Groomed Nails",
+      "Clean",
+      "Acceptable",
+      "Dirty",
+      "Overgrown Nails"
+    ]
+  },
+  {
+    "id": "f0f50e89-59fd-44a6-bbb9-876d80ade037",
+    "characteristic_name": "Feet (Smell)",
+    "choices": [
+      "Fresh Foot Odor",
+      "Mild Foot Odor",
+      "No Noticeable Odor",
+      "Unpleasant Foot Odor",
+      "Strong Foot Odor"
+    ]
+  }
+]

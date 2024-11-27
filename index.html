@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SmellCheckMate ChatBot</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <style>
+    body,
+    h1 {
+      font-family: "Raleway", sans-serif
+    }
+
+    body,
+    html {
+      height: 100%
+    }
+    h2 {
+      font-family: 'Cairo', sans-serif; font-weight: 900; /* High weight for bold text */ font-size: 2.5em;
+  color: white;
+  background: linear-gradient(to right, rgba(0, 4, 40, 0.5), rgba(0, 78, 146, 0.5)); /* Dark blue gradient with 50% transparency */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+    .bgimg {
+      background-image: url('https://i.imgur.com/J5FVdyM.jpg');
+      min-height: 100%;
+      background-position: center;
+      background-size: cover;
+    }
+    .inp{
+      font-family: 'Cairo', sans-serif; font-weight: 500; /* High weight for bold text */ font-size: 1.5em;
+      border-radius: 15px;
+      border-color: green;
+      background-color: white;
+      color: black;
+      width: 300px;
+      margin: auto;
+   
+    }
+    .lbl{
+      font-family: 'Cairo', sans-serif; font-weight: 500; /* High weight for bold text */ font-size: 1.5em;
+      color: black;
+    }
+    .bt{
+      background-color: white;
+      border-radius: 8px;
+      border-color: transparent;
+      width: 150px;
+      color: black;
+      font-family: 'Cairo', sans-serif; font-weight: 600; /* High weight for bold text */ font-size: 1.5em;
+    }
+   
+  </style>
+</head>
+
+<body>
+  <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+    <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    </div>
+    <div class="w3-display-middle">
+      <h2 class="w3-jumbo w3-animate-top">SmellCheckMate ChatBot</h2>
+      <hr class="w3-border-grey" style="margin:auto;width:40%">
+      <form action="/submit" method="post">
+        <p class="w3-center">
+          <label class="lbl"><b>Your Phone</b></label>
+          <input placeholder="974xxxxxxxx" name="phoneNumber" class=" inp w3-input w3-border w3-margin-bottom" />
+          <!-- <label><b>Your Prompt</b></label>
+          <textarea name="message" class="w3-input w3-border w3-margin-bottom" rows="4" cols="50"></textarea> -->
+        </p>
+        <p class="w3-center">
+          <button class="bt" type="submit">Submit</button>
+        </p>
+      </form>
+    </div>
+    <div class="w3-display-bottomleft w3-padding-large">
+    </div>
+  </div>
+</body>
+
+</html>
