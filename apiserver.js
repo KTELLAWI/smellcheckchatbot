@@ -110,7 +110,7 @@ const { exec } = require('child_process');
 app.post('/execute', (req, res) => {
     console.log('Request received at /execute endpoint');
 
-    exec("pm2 restart 1 && pm2 restart 2", (error, stdout, stderr) => {
+    exec("pm2 restart 1 && pm2 restart 0", (error, stdout, stderr) => {
         console.log('Executing command...');
 
         if (error) {
